@@ -60,3 +60,14 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Common IDE and editor buffer files
+.idea/
+~*
+\#*
+
+# Virtual environment name
+venv/
+
+# sqlite database
+db.sqlite3
