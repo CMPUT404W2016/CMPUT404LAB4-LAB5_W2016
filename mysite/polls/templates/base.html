@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>CMPUT 404 - Lab 5</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet"/>
+</head>
+<div>
+    <h1>CMPUT 404 - Lab 5</h1>
+    <p><a href="{% url 'polls:index' %}">All Questions</a></p>
+</div>
+<body>
+{% block body %}
+{% endblock %}
+<script src="{% static 'js/base.js' %}"></script>
+</body>
+</html>
